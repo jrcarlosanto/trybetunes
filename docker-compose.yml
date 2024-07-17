@@ -1,16 +1,27 @@
 version: '3'
 services:
-  db:
-    image: mcr.microsoft.com/azure-sql-edge:latest
-    container_name: tybetunes_db
+  dbmysql:
+    image: mysql:8.0.21
+    container_name: contact_db_mysql
+    platform: linux/x86_64
     ports:
-      - 1433:1433
+      - 3308:3306
     environment:
-      - ACCEPT_EULA=Y
-      - MSSQL_SA_PASSWORD=TrybeTunes123456!
-      - MSSQL_PID=Developer
+      - MYSQL_ROOT_PASSWORD=TrybeTunes123456!
+    restart: 'always'
+    volumes:
+      - ./BackTrybeTunes/script-all-database.sql:/docker-entrypoint-initdb.d/script-all-database.sql
+
   back:
     container_name: backTrybeTunes
     build: ./BackTrybeTunes
     ports:
       - 5501:5501
+      - 5502:5502
+    environment:
+      - SERVER=localhost
+      - USERID=root
+      - PASSWORD=TrybeTunes123456!
+      - PORTMYSQL=3308
+      - PORT=5502
+      - DATABASE=TrybeTunes

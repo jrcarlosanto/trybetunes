@@ -11,6 +11,7 @@
 /home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
 /home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
 /home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
 /home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
 /home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
@@ -27,6 +28,9 @@
 /home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Microsoft.OpenApi.dll
 /home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Mono.TextTemplating.dll
+/home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/MySqlConnector.dll
+/home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.Design.dll
 /home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/jr/Projetos/trybetunes/BackTrybeTunes/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/jr/Projetos/trybetunes/BackTrybeTunes/BackTrybeTunes.csproj",
         "projectName": "BackTrybeTunes",
         "projectPath": "/home/jr/Projetos/trybetunes/BackTrybeTunes/BackTrybeTunes.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/jr/.nuget/packages/",
         "outputPath": "/home/jr/Projetos/trybetunes/BackTrybeTunes/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/jr/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -44,13 +44,31 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
