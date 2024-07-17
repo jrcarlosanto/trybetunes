@@ -1,0 +1,16 @@
+version: '3'
+services:
+  db:
+    image: mcr.microsoft.com/azure-sql-edge:latest
+    container_name: tybetunes_db
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=TrybeTunes123456!
+      - MSSQL_PID=Developer
+  back:
+    container_name: backTrybeTunes
+    build: ./BackTrybeTunes
+    ports:
+      - 5501:5501
